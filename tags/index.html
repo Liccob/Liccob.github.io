@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next muse use-motion" lang="zh-Hans">
+<html class="theme-next gemini use-motion" lang="zh-Hans">
 <head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -94,7 +94,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Muse',
+    scheme: 'Gemini',
     version: '5.1.4',
     sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
@@ -187,6 +187,26 @@
         </li>
       
         
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
+            
+            分类
+          </a>
+        </li>
+      
+        
         <li class="menu-item menu-item-archives">
           <a href="/archives/" rel="section">
             
@@ -239,7 +259,7 @@
                 目前共计 21 个标签
             </div>
             <div class="tag-cloud-tags">
-              <a href="/tags/Array/" style="font-size: 12px; color: #ccc">Array</a> <a href="/tags/CSS/" style="font-size: 12px; color: #ccc">CSS</a> <a href="/tags/ES6-异步/" style="font-size: 12px; color: #ccc">ES6 异步</a> <a href="/tags/Git/" style="font-size: 12px; color: #ccc">Git</a> <a href="/tags/Hack/" style="font-size: 21px; color: #6f6f6f">Hack</a> <a href="/tags/JS/" style="font-size: 12px; color: #ccc">JS</a> <a href="/tags/JS实现/" style="font-size: 12px; color: #ccc">JS实现</a> <a href="/tags/Promise/" style="font-size: 12px; color: #ccc">Promise</a> <a href="/tags/Symbol/" style="font-size: 12px; color: #ccc">Symbol</a> <a href="/tags/With/" style="font-size: 12px; color: #ccc">With</a> <a href="/tags/new运算符/" style="font-size: 12px; color: #ccc">new运算符</a> <a href="/tags/setState/" style="font-size: 12px; color: #ccc">setState</a> <a href="/tags/this/" style="font-size: 12px; color: #ccc">this</a> <a href="/tags/剑指OFFER/" style="font-size: 21px; color: #6f6f6f">剑指OFFER</a> <a href="/tags/小程序/" style="font-size: 12px; color: #ccc">小程序</a> <a href="/tags/排序/" style="font-size: 30px; color: #111">排序</a> <a href="/tags/数据结构/" style="font-size: 12px; color: #ccc">数据结构</a> <a href="/tags/浏览器/" style="font-size: 12px; color: #ccc">浏览器</a> <a href="/tags/算法/" style="font-size: 12px; color: #ccc">算法</a> <a href="/tags/脚手架/" style="font-size: 12px; color: #ccc">脚手架</a> <a href="/tags/闭包/" style="font-size: 12px; color: #ccc">闭包</a>
+              <a href="/tags/Array/" style="font-size: 12px; color: #ccc">Array</a> <a href="/tags/CSS/" style="font-size: 12px; color: #ccc">CSS</a> <a href="/tags/ES6-异步/" style="font-size: 12px; color: #ccc">ES6 异步</a> <a href="/tags/Git/" style="font-size: 12px; color: #ccc">Git</a> <a href="/tags/Hack/" style="font-size: 21px; color: #6f6f6f">Hack</a> <a href="/tags/JS/" style="font-size: 12px; color: #ccc">JS</a> <a href="/tags/JS实现/" style="font-size: 12px; color: #ccc">JS实现</a> <a href="/tags/Promise/" style="font-size: 12px; color: #ccc">Promise</a> <a href="/tags/Symbol/" style="font-size: 12px; color: #ccc">Symbol</a> <a href="/tags/With/" style="font-size: 12px; color: #ccc">With</a> <a href="/tags/new运算符/" style="font-size: 12px; color: #ccc">new运算符</a> <a href="/tags/setState/" style="font-size: 12px; color: #ccc">setState</a> <a href="/tags/this/" style="font-size: 12px; color: #ccc">this</a> <a href="/tags/剑指OFFER/" style="font-size: 21px; color: #6f6f6f">剑指OFFER</a> <a href="/tags/小程序/" style="font-size: 12px; color: #ccc">小程序</a> <a href="/tags/排序/" style="font-size: 30px; color: #111">排序</a> <a href="/tags/数据结构/" style="font-size: 12px; color: #ccc">数据结构</a> <a href="/tags/浏览器/" style="font-size: 12px; color: #ccc">浏览器</a> <a href="/tags/算法/" style="font-size: 21px; color: #6f6f6f">算法</a> <a href="/tags/脚手架/" style="font-size: 12px; color: #ccc">脚手架</a> <a href="/tags/闭包/" style="font-size: 12px; color: #ccc">闭包</a>
             </div>
           </div>
         
@@ -288,6 +308,8 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
+              <img class="site-author-image" itemprop="image" src="/images/avatar.png" alt="Liccob">
+            
               <p class="site-author-name" itemprop="name">Liccob</p>
               <p class="site-description motion-element" itemprop="description"></p>
           </div>
@@ -299,7 +321,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">29</span>
+                  <span class="site-state-item-count">30</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -310,7 +332,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">10</span>
+                  <span class="site-state-item-count">11</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -376,7 +398,7 @@
 
 
 
-  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Gemini</a> v5.1.4</div>
 
 
 
@@ -475,6 +497,13 @@
 
   
   
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
 
   
   <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
